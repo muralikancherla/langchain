@@ -1,0 +1,52 @@
+# ==========================================
+# Python Bytecode and Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Environments and Package Managers
+# ==========================================
+# Standard Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# uv specific paths
+.uv/
+
+# pipenv, poetry, and conda leftovers
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Configuration and Secret Keys (Crucial!)
+# ==========================================
+.env
+*.env
+.secret
+auth.json
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# IDEs (VS Code / PyCharm)
+.vscode/
+.idea/
